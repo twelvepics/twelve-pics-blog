@@ -1,0 +1,63 @@
+/* --------------------------------------------------------
+ * fonts
+ * ------------------------------------------------------*/
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/fonts/Merriweather-Regular.woff2");
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/fonts/Merriweather-Bold.woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PalanquinDark";
+  src: url("/fonts/PalanquinDark-Regular.woff2");
+}
+@font-face {
+  font-family: "PalanquinDark";
+  src: url("/fonts/PalanquinDark-SemiBold.woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Palanquin";
+  src: url("/fonts/Palanquin-Medium.woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Palanquin";
+  src: url("/fonts/Palanquin-SemiBold.woff2");
+  font-weight: 600;
+}
+/* --------------------------------------------------------
+   * pages globals
+   * ------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PalanquinDark", Sans-serif;
+  text-align: center;
+  color: #222 !important;
+}
+
+/************************ shadow **********************/
+.box-shadow {
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+/************************ footer **********************/
+footer {
+  margin-top: 50px;
+  font-family: "PalanquinDark", Sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0.5em 1.5rem 0.5em;
+  min-height: 100px;
+  font-size: 0.9em;
+}
