@@ -110,7 +110,7 @@ nav .navbar-end {
   width: 100%;
 }
 .navbar-item img {
-  max-height: 2.25rem;
+  max-height: 2.5rem;
 }
 
 .navbar-menu.is-active,

@@ -32,14 +32,7 @@ export default {
   generate: {
     routes: ["/email-confirm"]
   },
-  router: {
-    extendRoutes(routes, resolve) {
-      routes.push({
-        path: "email-confirm/:confirmId",
-        component: resolve(__dirname, "pages/email-confirm/_confirmId/index.vue")
-      });
-    }
-  },
+
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -119,8 +112,15 @@ export default {
       {
         set: "@fortawesome/free-solid-svg-icons", // Solid icons
         icons: [
-          "faCamera", "faEnvelope", "faPrint", "faFilePdf", "faPlay",
-          "faPause", "faStepForward", "faStepBackward", "faFastBackward",
+          "faCamera",
+          "faEnvelope",
+          "faPrint",
+          "faFilePdf",
+          "faPlay",
+          "faPause",
+          "faStepForward",
+          "faStepBackward",
+          "faFastBackward",
           "faFileDownload"
         ]
       },
@@ -144,9 +144,9 @@ export default {
       }
     },
     // UNCOMMENT FOR PROD
-    // babel: {
-    //   plugins: ['babel-plugin-transform-remove-console']
-    // }
+    babel: {
+      plugins: ["babel-plugin-transform-remove-console"]
+    }
 
     // extend(config, ctx) {
     //   // Includes the Compiler version of Vue.
@@ -154,7 +154,6 @@ export default {
     //   config.resolve.alias["vue$"] = "vue/dist/vue.esm.js"
     // }
     // analyze: true
-
   },
   sitemap: {
     hostname: "https://blog.twelvepics.com",

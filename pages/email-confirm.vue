@@ -26,7 +26,7 @@ export default {
   },
   data() {
     return {
-      confirmId: this.$route.params.confirmId,
+      confirmId: this.$route.query.confirmId,
       apiUrl: this.$config.apiBaseURL,
     };
   },
@@ -35,7 +35,7 @@ export default {
     // Called also on query changes
     console.log("fetching");
     console.log(`Base url => ${this.apiUrl}`);
-    console.log(this.$route.params.confirmId);
+    console.log(this.$route.query.confirmId);
     const res = await this.$http.$post(
       `${this.apiUrl}/subscribers/validate-email/${this.confirmId}`,
       {}

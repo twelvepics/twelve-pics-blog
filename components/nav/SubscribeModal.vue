@@ -54,6 +54,7 @@
               <button
                 type="submit"
                 class="button is-link"
+                :class="{'is-loading': sending}"
                 :disabled="$v.$invalid || registrationDone"
               >
                 Submit
@@ -87,7 +88,7 @@ export default {
       apiErrorMessage: "",
       apiUrl: this.$config.apiBaseURL,
       registrationDone: false,
-      // loading: false
+      sending: false
     };
   },
   props: ["isActive"],
@@ -103,6 +104,7 @@ export default {
       // this.loading = false;
       this.email = "";
       this.$v.email.$reset();
+      this.sending = false;
     },
     resetApiError() {
       this.apiError = null;
@@ -116,6 +118,7 @@ export default {
     },
     async onSubmit() {
       console.log(`=> ${this.apiUrl}`);
+      this.sending = true;
       this.apiError = null;
       // this.loading = true;
       const email = this.email;
@@ -125,11 +128,13 @@ export default {
         });
         const data = await res;
         console.log(res);
+        this.sending = false;
         this.registrationDone = true;
         setTimeout(() => this.$emit("subscribeModalClosed"), 3000);
         // ;
       } catch (error) {
         this.apiError = true;
+        this.sending = false;
         if (error.statusCode === 400) {
           console.log(error.response.data);
           this.apiErrorMessage = error.response.data.errors.email;
