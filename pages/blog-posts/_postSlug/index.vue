@@ -206,7 +206,8 @@ export default {
   font-family: "PalanquinDark", Sans-serif;
   color: #777;
   font-size: 0.95em;
-  line-height: 0.4em;
+  line-height: 1.4em;
+  margin-top: -.2em;
 }
 .blog-post .top-img {
   width: 100%;
@@ -418,7 +419,7 @@ div.reg.mb12 {
 .lh18 {
   line-height: 1.8rem;
 }
-.caption-top {
+.blog-post .caption-top {
   margin: 0.9em 0 3em 0;
   color: #555 !important;
 }

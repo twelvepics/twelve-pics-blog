@@ -30,7 +30,7 @@
         <p
           xmlns:dct="http://purl.org/dc/terms/"
           xmlns:cc="http://creativecommons.org/ns#"
-          class="license-text"
+          class="license-text brdr"
         >
           <span class="this-work">This work by</span>
           <a
@@ -259,6 +259,14 @@ a.download-pdf:hover {
     font-weight: 500;
     text-align: left;
     color: #333;
+  }
+  .intro-border-btm {
+    border-bottom: 1px solid #9989;
+    padding-bottom: 0.75rem;
+    margin: 0 .75rem 0 .75rem;
+  }
+  .license-text.brdr {
+    margin: 0 .75rem 0 .75rem;
   }
 }
 </style>
