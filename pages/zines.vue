@@ -248,9 +248,7 @@ a.download-pdf:hover {
     padding-top: 2em;
     margin-top: 2.5em;
   }
-  .zines {
-    margin-top: 0;
-  }
+  
   div.zines_title {
     font-size: 1.4rem;
     line-height: 1.4rem;
