@@ -30,7 +30,26 @@ export default {
     fallback: false
   },
   generate: {
-    routes: ["/email-confirm"]
+    // routes: [
+    //   "/email-confirm",
+    //   "/zines/paris-novel-1",
+    //   "/zines/paris-novel-2",
+    //   "/zines/paris-novel-3"
+    // ]
+    async routes() {
+      // console.log(getDb);
+      const dbHandle = getDb();
+      let cursor;
+      cursor = await dbHandle().query(
+        "FOR d IN zines FILTER d.publish==true SORT d.createdDate DESC RETURN d.slug"
+      );
+      const zines = await cursor.all();
+      const zineRoutes = zines.map(z => `/zines/${z}`);
+      // console.log(zineRoutes);
+      return new Promise((resolve, reject) => {
+        resolve(zineRoutes);
+      });
+    }
   },
 
   /*

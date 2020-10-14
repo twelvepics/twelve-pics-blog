@@ -5,7 +5,7 @@
       <div class="rubric-wrapper">
         <h2 class="rubric"><span>Digital zines</span></h2>
       </div>
-      <h1 class="title">What, digital photo zine? Is that even a thing?</h1>
+      <h1 class="title">What... digital photo zine? Is that even a thing?</h1>
       <div class="zines_body">
         <p class="intro-border-btm">
           From print to pixels. I love traditional printed photo zines, they are
@@ -59,7 +59,7 @@
       >
         <img :src="zine.thumbnail" />
       </figure>
-      <div class="zine-info columns">
+      <div class="zine-info columns is-mobile">
         <div class="zine-info-text column">
           {{ zine.num_photos }} photos - {{ zine.createdDate | date }}
         </div>
@@ -144,6 +144,10 @@ export default {
   align-items: unset;
 }
 /********************************************/
+
+h1.title {
+    font-size:2em;
+  }
 h2.rubric {
   color: white !important;
   text-transform: uppercase;
@@ -156,25 +160,17 @@ h2.rubric span {
   padding: 0.2rem 0.5rem;
 }
 .rubric-wrapper {
-  border-bottom: 1px solid #666;
+  /* border-bottom: 1px solid #666; */
   margin-bottom: 1.5rem;
 }
 .top-img {
   margin-top: 2.5rem;
 }
 .zines {
-  padding: 0;
+  padding: 4em .75em 0 .75em;
   margin: 2em auto 0 auto;
   max-width: 700px;
   padding-top: 4em;
-}
-div.zines_title {
-  font-size: 1.6rem;
-  margin: 1.5em 0 0.3em 0;
-  font-family: "PalanquinDark", Serif;
-  font-weight: 500;
-  text-align: left;
-  color: #333;
 }
 div.zines_body {
   margin-top: 1.2em;
@@ -186,19 +182,23 @@ div.zines_body {
 
 .cover-container {
   max-width: 320px;
-  margin: 3rem auto;
+  margin: 2.3rem auto;
 }
 .zine-info {
-  margin-top: 0.5em;
-  border-top: 1px solid black;
+  /* margin-top: 0.5em; */
+  border-top: 1px solid #aaa;
+}
+.zine-info.columns {
+  margin: .5em -.5em 0 -.5em;
+}
+.zine-info .column {
+  padding: 0 .5em;
 }
 .zine-info-text {
   font-family: "PalanquinDark", Serif;
   color: #999;
-  padding: 0 0.75rem;
 }
 .zine-info-icons {
-  padding: 0 0.75rem;
   font-size: 1.6em;
 }
 .zineLnk {
@@ -248,23 +248,20 @@ a.download-pdf:hover {
     padding-top: 2em;
     margin-top: 2.5em;
   }
-  
-  div.zines_title {
-    font-size: 1.4rem;
-    line-height: 1.4rem;
-    margin: 0.3em 0 0.3em 0;
-    font-family: "PalanquinDark", Serif;
-    font-weight: 500;
-    text-align: left;
-    color: #333;
+  h1.title {
+    font-size:1.8em;
   }
   .intro-border-btm {
     border-bottom: 1px solid #9989;
     padding-bottom: 0.75rem;
-    margin: 0 .75rem 0 .75rem;
   }
   .license-text.brdr {
-    margin: 0 .75rem 0 .75rem;
+  }
+  .zine-info.columns {
+    margin: .5em -.5em 0 -.5em;
+  }
+  .zine-info .column {
+    padding: 0 .5em;
   }
 }
 </style>

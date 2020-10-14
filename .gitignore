@@ -30,5 +30,4 @@ TODO*
 /static/fonts
 /static/images
 
-copy.sh
-deploy.sh
+*.sh

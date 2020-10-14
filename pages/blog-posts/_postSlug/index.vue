@@ -116,9 +116,13 @@ export default {
 }
 @media only screen and (max-width: 600px) {
   .blog-post h1.title {
-    font-size: 1.6em;
-    line-height: 2.2rem;
+    font-size: 1.7em;
+    line-height: 2rem;
   }
+
+.blog-post h2.rubric {
+  margin-bottom: 1.1rem;
+}
 }
 .blog-post .subtitle {
   font-family: "Merriweather", Serif;
@@ -420,7 +424,7 @@ div.reg.mb12 {
   line-height: 1.8rem;
 }
 .blog-post .caption-top {
-  margin: 0.9em 0 3em 0;
+  margin: 0.6em 0 3em 0;
   color: #555 !important;
 }
 .blog-post .in-img.narrow {

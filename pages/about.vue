@@ -109,7 +109,6 @@ a:hover {
   main {
     width: auto;
     margin: 0 0.5em 3em 0.5em;
-    padding-top: 2em;
   }
   .about {
     margin-top: 0;
@@ -123,6 +122,9 @@ a:hover {
     text-align: left;
     color: #333;
     line-height: 1.4em;
+  }
+  main section {
+    padding-top: 3.3em;;
   }
 }
 </style>
