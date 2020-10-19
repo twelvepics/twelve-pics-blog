@@ -53,8 +53,14 @@
           @click.native="hideDropdown"
           >Blog</nuxt-link
         >
+        <a href="https://www.alainmasiero.com/" class="navbar-item blog-link">Recent works</a>
+
         <nuxt-link to="/zines" class="navbar-item" @click.native="hideDropdown"
-          >Digital zines</nuxt-link
+          >Zines</nuxt-link
+        >
+
+        <nuxt-link to="/prints" class="navbar-item" @click.native="hideDropdown"
+          >Prints</nuxt-link
         >
 
         <nuxt-link to="/about" class="navbar-item" @click.native="hideDropdown"

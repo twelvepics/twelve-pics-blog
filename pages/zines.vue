@@ -3,7 +3,7 @@
     <div class="zines">
       <!-- <div class="zines" @click.prevent.stop> -->
       <div class="rubric-wrapper">
-        <h2 class="rubric"><span>Digital zines</span></h2>
+        <h2 class="rubric"><span>Zines</span></h2>
       </div>
       <h1 class="title">What... digital photo zine? Is that even a thing?</h1>
       <div class="zines_body">
@@ -19,9 +19,9 @@
           As a photographer, I like to tell stories, and share my work, these
           mini digital books seems to be a nice way to do so, keeping the DIY
           ethic which is a crucial part of zine making. <br />
-          All photos on this page are mine. You can download the zines as pdf
-          and the photos as zipped jpegs. They are licensed under Creative
-          Commons BY V4. You can reuse them freely under the
+           <span class="txt-start">All photos on this page are mine.</span> You can download the zines as pdf
+          and the photos as zipped jpegs. They are licenced under <span class="txt-start">Creative
+          Commons BY V4</span>. You can reuse them under the
           <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
             >CC BY 4.0</a
           >
@@ -263,5 +263,10 @@ a.download-pdf:hover {
   .zine-info .column {
     padding: 0 .5em;
   }
+}
+ .zines_body .txt-start {
+  font-family: "PalanquinDark", Serif;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 </style>

@@ -1,8 +1,0 @@
-<template>
-  <div class="image is-3by2 zine-page-div">
-    <div>
-      <!-- <img src="/images/zines/zine_vert.jpg" class="v-left-o" alt="" /> -->
-      <img src="/images/zines/zine_vert.jpg" class="v-right-o" alt="" />
-    </div>
-  </div>
-</template>
