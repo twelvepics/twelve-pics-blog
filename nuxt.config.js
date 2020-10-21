@@ -140,7 +140,8 @@ export default {
           "faStepForward",
           "faStepBackward",
           "faFastBackward",
-          "faFileDownload"
+          "faFileDownload",
+          "faShoppingCart"
         ]
       },
       {
