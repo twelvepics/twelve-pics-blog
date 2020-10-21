@@ -1,22 +1,22 @@
-
 <template>
   <section>
     <div class="zines">
       <!-- <div class="zines" @click.prevent.stop> -->
       <div class="rubric-wrapper">
-        <h2 class="rubric"><span>Digital zines</span></h2>
+        <h2 class="rubric"><span>Zines</span></h2>
       </div>
-      <h1 class="title">What... digital photo zine? Is that even a thing?</h1>
+      <h1 class="title">Zines... The way to go :)</h1>
       <div class="zines_body">
         <p class="intro-border-btm">
-          <span class="txt-exerg">I love photo zines,</span> who doesn't! 
+          <span class="txt-start">I love photo zines,</span> who doesn't! 
           They tell a story, they are unique and precious objects. 
-          But we are at the digital age they are commonly low runs, have a limited reach, and a cost. 
-          So I am curious to experiment with what could be a digital photo zine too.
-          <span class="txt-exerg">You can download these zines as pdf too.</span> <br />
-          As a photographer, I like to tell stories, and share my work, these
+          But they are commonly low runs, have a limited reach, and a cost.
+          We are at the digital age, so I am curious to experiment with what could 
+          be a digital photo zine.<span class="txt-start">You can download these zines as pdf too.</span> <br />
+          As a photographer, I like to share what I have witnessed and tell stories, these
           mini digital books seems to be a nice way to do so, keeping the DIY
           ethic which is a crucial part of zine making.<br />
+          
         </p>
       </div>
     </div>
@@ -25,7 +25,7 @@
       <!-- <div @click="clicked(zine._key, zine.slug)">---</div> -->
       <figure
         class="image is-4by5 zineLnk"
-        @click="clicked(zine._key, zine.slug)"
+        @click="viewZineClicked(zine._key, zine.slug)"
       >
         <img :src="zine.thumbnail" />
       </figure>
@@ -35,16 +35,13 @@
         </div>
         <div
           class="zine-info-icons column is-narrow"
-          style="line-height: 1.3em"
         >
-          <a :href="zine.zip_filename" class="download-file">
-            <font-awesome-icon
-              :icon="['fas', 'file-download']"
-            ></font-awesome-icon>
-          </a>
           <a :href="zine.pdf_filename" target="_blank" class="download-pdf">
             <font-awesome-icon :icon="['fas', 'file-pdf']"></font-awesome-icon>
           </a>
+          <!-- <a @click.prevent="buyZineClicked(zine._key)" class="buy-zine less-padding">
+            <font-awesome-icon :icon="['fas', 'shopping-cart']"></font-awesome-icon>
+          </a> -->
         </div>
       </div>
     </div>
@@ -85,9 +82,9 @@ export default {
     },
   },
   methods: {
-    clicked(id, slug) {
+    viewZineClicked(id, slug) {
       // console.log("XOXO", this.$route);
-      console.log(`clicked ${id}/${slug}`);
+      console.log(`View zine clicked ${id}/${slug}`);
       /////////////////////////////////////
       lockBgScroll();
       /////////////////////////////////////
@@ -98,6 +95,9 @@ export default {
       // this.isActive = true;
       // console.log("XOXO", this.$route.matched.length);
     },
+    buyZineClicked(key) {
+      console.log(`Buy zine clicked ${key}`);
+    }
   },
   created() {
     console.log("zines created");
@@ -149,7 +149,6 @@ div.zines_body {
 .big-shadowed {
   box-shadow: 3px 3px 10px #999;
 }
-
 .cover-container {
   max-width: 320px;
   margin: 2.3rem auto;
@@ -164,12 +163,19 @@ div.zines_body {
 .zine-info .column {
   padding: 0 .5em;
 }
+.zine-info .column a {
+  padding-left:.2em;
+}
+.zine-info .column a.less-padding {
+  padding-left:.1em;
+}
 .zine-info-text {
   font-family: "PalanquinDark", Serif;
   color: #999;
 }
 .zine-info-icons {
-  font-size: 1.6em;
+  font-size: 1.5em;
+  line-height: 1.3em
 }
 .zineLnk {
   cursor: pointer;
@@ -192,23 +198,22 @@ a:link {
   margin-left: 3px;
   vertical-align: text-bottom;
 }
-a.download-file:link {
+a.download-file,
+a.download-pdf {
   color: #999;
 }
-a.download-file:hover {
+a.download-file:hover,
+a.buy-zine:hover,
+a.download-pdf:hover  {
   color: #777;
 }
-a.download-pdf {
-  color: red;
-}
-a.download-pdf:hover {
-  color: rgb(189, 9, 9);
-}
-.zines .txt-exerg {
-  font-family: "PalanquinDark", Serif;
-  font-size: 1.1em;
-  font-weight: 600;
-}
+
+/* a:hover {
+  color: #444;
+} */
+/*****************************************************
+* modal
+******************************************************/
 
 @media only screen and (max-width: 768px) {
   main {
@@ -232,5 +237,10 @@ a.download-pdf:hover {
   .zine-info .column {
     padding: 0 .5em;
   }
+}
+ .zines_body .txt-start {
+  font-family: "PalanquinDark", Serif;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 </style>
