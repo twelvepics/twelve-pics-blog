@@ -1,3 +1,4 @@
+
 <template>
   <section>
     <div class="zines">
@@ -8,45 +9,14 @@
       <h1 class="title">What... digital photo zine? Is that even a thing?</h1>
       <div class="zines_body">
         <p class="intro-border-btm">
-          From print to pixels. I love traditional printed photo zines, they are
-          unique and precious objects. But they are commonly low runs, have a
-          limited reach, and a cost. So I am curious to experiment with what
-          could be a digital photo zine, just a simple start, I'm not so sure
-          about how it will evolve. The sky and my tech abilities are the limit.
-          Viewing photos on a good screen is fine to me, different from a real
-          life print, sure, another experience. Anyway, welcome to the world of
-          digital self-publishing.<br />
+          <span class="txt-exerg">I love photo zines,</span> who doesn't! 
+          They tell a story, they are unique and precious objects. 
+          But we are at the digital age they are commonly low runs, have a limited reach, and a cost. 
+          So I am curious to experiment with what could be a digital photo zine too.
+          <span class="txt-exerg">You can download these zines as pdf too.</span> <br />
           As a photographer, I like to tell stories, and share my work, these
           mini digital books seems to be a nice way to do so, keeping the DIY
-          ethic which is a crucial part of zine making. <br />
-          All photos on this page are mine. You can download the zines as pdf
-          and the photos as zipped jpegs. They are licensed under Creative
-          Commons BY V4. You can reuse them freely under the
-          <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
-            >CC BY 4.0</a
-          >
-          terms.
-        </p>
-        <p
-          xmlns:dct="http://purl.org/dc/terms/"
-          xmlns:cc="http://creativecommons.org/ns#"
-          class="license-text brdr"
-        >
-          <span class="this-work">This work by</span>
-          <a
-            rel="cc:attributionURL dct:creator"
-            property="cc:attributionName"
-            href="https://blog.twelvepics.com/zines"
-            >Alain Masiero</a
-          >
-          <span class="this-work">is licensed under</span>
-          <a rel="license" href="https://creativecommons.org/licenses/by/4.0"
-            >CC BY 4.0<img
-              class="cc4"
-              src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img
-              class="cc4"
-              src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
-          /></a>
+          ethic which is a crucial part of zine making.<br />
         </p>
       </div>
     </div>
@@ -234,12 +204,11 @@ a.download-pdf {
 a.download-pdf:hover {
   color: rgb(189, 9, 9);
 }
-/* a:hover {
-  color: #444;
-} */
-/*****************************************************
-* modal
-******************************************************/
+.zines .txt-exerg {
+  font-family: "PalanquinDark", Serif;
+  font-size: 1.1em;
+  font-weight: 600;
+}
 
 @media only screen and (max-width: 768px) {
   main {
