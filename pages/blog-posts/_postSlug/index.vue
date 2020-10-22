@@ -205,13 +205,13 @@ export default {
   left: 0;
   right: 0;
 }
-
 .blog-post .caption {
   font-family: "PalanquinDark", Sans-serif;
   color: #777;
   font-size: 0.95em;
-  line-height: 1.4em;
-  margin-top: -.2em;
+  line-height: 1.3em;
+  margin:-.3rem 0 0 0;
+  padding:0;
 }
 .blog-post .top-img {
   width: 100%;
@@ -314,6 +314,9 @@ export default {
 }
 
 .linkz {
+  font-family: "Palanquin", Sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
   margin-top: 1.5em;
   background: #eee;
   padding: 0.5em 1em;
@@ -423,12 +426,18 @@ div.reg.mb12 {
 .lh18 {
   line-height: 1.8rem;
 }
-.blog-post .caption-top {
-  margin: 0.6em 0 3em 0;
+.blog-post  .caption-top {
+  margin: 0;
+  margin-top:.5em;
   color: #555 !important;
 }
 .blog-post .in-img.narrow {
   max-width: 750px;
+  margin: 1rem auto;
+  margin-bottom: 1rem;
+}
+ .blog-post .in-img.narrow-vert {
+  max-width: 450px;
   margin: 1rem auto;
   margin-bottom: 1rem;
 }
