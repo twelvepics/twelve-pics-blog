@@ -8,12 +8,12 @@
       <h1 class="title">Zines... The way to go :)</h1>
       <div class="zines_body">
         <p class="intro-border-btm">
-          <span class="txt-start">I love photo zines,</span> who doesn't! 
+          <span class="txt-exerg">I love photo zines,</span> who doesn't! 
           They tell a story, they are unique and precious objects. 
-          But we are at the digital age they are commonly low runs, have a limited reach, and a cost. 
-          So I am curious to experiment with what could be a digital photo zine too.
-          <span class="txt-start">You can download these zines as pdf too.</span> <br />
-          As a photographer, I like to tell stories, and share my work, these
+          But they are commonly low runs, have a limited reach, and a cost.
+          We are at the digital age, so I am curious to experiment with what could 
+          be a digital photo zine.<span class="txt-exerg">You can download these zines as pdf too.</span> <br />
+          As a photographer, I like to share what I have witnessed and tell stories, these
           mini digital books seems to be a nice way to do so, keeping the DIY
           ethic which is a crucial part of zine making.<br />
           
@@ -36,11 +36,6 @@
         <div
           class="zine-info-icons column is-narrow"
         >
-          <!-- <a :href="zine.zip_filename" class="download-file">
-            <font-awesome-icon
-              :icon="['fas', 'file-download']"
-            ></font-awesome-icon>
-          </a> -->
           <a :href="zine.pdf_filename" target="_blank" class="download-pdf">
             <font-awesome-icon :icon="['fas', 'file-pdf']"></font-awesome-icon>
           </a>
@@ -212,14 +207,11 @@ a.buy-zine:hover,
 a.download-pdf:hover  {
   color: #777;
 }
-
-/* a:hover {
-  color: #444;
-} */
-/*****************************************************
-* modal
-******************************************************/
-
+ .zines .txt-exerg {
+  font-family: "PalanquinDark", Serif;
+  font-size: 1.1em;
+  font-weight: 600;
+}
 @media only screen and (max-width: 768px) {
   main {
     width: auto;
@@ -243,9 +235,5 @@ a.download-pdf:hover  {
     padding: 0 .5em;
   }
 }
- .zines_body .txt-start {
-  font-family: "PalanquinDark", Serif;
-  font-size: 1.1em;
-  font-weight: 600;
-}
+
 </style>
