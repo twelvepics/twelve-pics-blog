@@ -10,6 +10,16 @@
           programming, whatever. Just for the fun, it's not serious.
         </div>
         <div class="about_body">
+          <p>
+          My name is Alain Masiero. I was born in France and have been a photographer since the ‘90s. 
+          After working as a photojournalist with photo agencies in Paris, I took a break from photography in 2006. 
+          Since 2016 I have lived in the Philippines. This country made me want to take photographs again —&nbsp;but
+          with a different approach. Now I’m more interested in long-term projects, with a focus on social and environmental issues. 
+          Working as a freelance programmer and photographer, I love traveling, meeting new people, and discovering new places. 
+          I am inspired by the photographic work of Shomei Tomatsu and Daido Moriyama, as well as 
+          the paintings of Edgar Degas and Pierre Bonnard.
+          </p>
+          <p>
           Covid times, what could a photographer who doesn't want to bring home
           the ugly virus do?<br />
           A website, sharing photos and random thoughts. Opinionated, maybe,
@@ -22,6 +32,7 @@
           <a href="mailto:alain@twelvepics.com">alain@twelvepics.com</a>. I'll
           do my best to respond in a timely manner. I hope you will enjoy the
           site, your feedback is welcome.
+          </p>
         </div>
       </div>
       <!-- -->
@@ -91,6 +102,9 @@ div.about_body {
   margin-top: 1.2em;
 }
 
+.about_body p {
+  margin-bottom:1em;
+}
 footer {
   margin-top: auto;
 }
