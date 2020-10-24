@@ -2,75 +2,103 @@
     <section>
         <div class="prints-intro">
             <div class="rubric-wrapper">
-                <h2 class="rubric"><span>Prints</span></h2>
+                <h2 class="rubric"><span>Limited edition prints</span></h2>
             </div>
-            <h1 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, a!</h1>
+            <h1 class="title">In the flesh!</h1>
             <div class="prints_body">
-                <p class="intro-border-btm">
-                From print to pixels. I love traditional printed photo zines, they are
-                unique and precious objects. But they are commonly low runs, have a
-                limited reach, and a cost. So I am curious to experiment with what
-                could be a digital photo zine, just a simple start, I'm not so sure
-                about how it will evolve. The sky and my tech abilities are the limit.
-                Viewing photos on a good screen is fine to me, different from a real
-                life print, sure, another experience. Anyway, welcome to the world of
-                digital self-publishing.
-                </p>
+                <div class="intro-border-btm">
+                  <p>
+                    <span class="txt-exerg">A selection of my photographs is available as limited edition prints.</span> They are printed on archival satin high-quality paper,
+                    hand signed, dated, and numbered on the reverse unless requested otherwise.
+                    All prints are shipped with an artist bill of sale and a certificate of authenticity,
+                    and you can choose the size, two sizes are available, see the captions for details. Price includes shipping.
+                  </p>
+                  <p>
+                    I am interested in <a href="https://www.alainmasiero.com/city-of-hopes" target="_blank">social/documentary</a> photography, long term projects, and this is how I finance my works.
+                    For more information, please contact me: <a href="mailto:alain@twelvepics.com">alain@twelvepics.com</a>.
+                  </p>
+                </div>
             </div>
         </div>
         <div class="print-pics">
             <div class="print-pics-item">
-                <figure class="image is-3by2 hpic`">
-                    <img src="/images/prints/print-1.jpg" class="big-shadowed"/>
+              <div class="img-margin big-shadowed">
+                <figure class="image hpic is-3by2">
+                    <img src="/images/prints/print-1.jpg" />
                 </figure>
+              </div>
+                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+            </div>
+            <div class="print-pics-item">
+              <div class="img-margin big-shadowed">
+                <figure class="image hpic is-3by2">
+                    <img src="/images/prints/print-2.jpg" />
+                </figure>
+              </div>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
             </div>
              <div class="print-pics-item vpic">
+               <div class="img-margin big-shadowed">
                 <figure class="image is-2by3">
-                    <img src="/images/prints/print-2.jpg" class="big-shadowed" >
+                    <img src="/images/prints/print-3.jpg">
                 </figure>
+               </div>
+                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+            </div>
+            <div class="print-pics-item">
+              <div class="img-margin big-shadowed">
+                <figure class="image hpic is-3by2">
+                    <img src="/images/prints/print-4.jpg" />
+                </figure>
+              </div>
+                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+            </div>
+             <div class="print-pics-item vpic">
+               <div class="img-margin big-shadowed">
+                <figure class="image is-2by3">
+                    <img src="/images/prints/print-5.jpg">
+                </figure>
+               </div>
+                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+            </div>
+            <div class="print-pics-item">
+              <div class="img-margin big-shadowed">
+                <figure class="image hpic is-3by2">
+                    <img src="/images/prints/print-6.jpg" />
+                </figure>
+              </div>
+                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+            </div>
+             <div class="print-pics-item vpic">
+               <div class="img-margin big-shadowed">
+                <figure class="image is-2by3">
+                    <img src="/images/prints/print-7.jpg">
+                </figure>
+               </div>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
             </div>
              <div class="print-pics-item">
-                <figure class="image is-3by2">
-                    <img src="/images/prints/print-3.jpg" class="big-shadowed" />
+              <div class="img-margin big-shadowed">
+                <figure class="image hpic is-3by2">
+                    <img src="/images/prints/print-8.jpg" />
                 </figure>
+              </div>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
             </div>
             <div class="print-pics-item">
-                <figure class="image is-3by2">
-                    <img src="/images/prints/print-4.jpg" class="big-shadowed" />
+              <div class="img-margin big-shadowed">
+                <figure class="image hpic is-3by2">
+                    <img src="/images/prints/print-9.jpg" />
                 </figure>
+              </div>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
             </div>
-            <div class="print-pics-item vpic">
-                <figure class="image is-2by3">
-                    <img src="/images/prints/print-5.jpg" class="big-shadowed" >
+             <div class="print-pics-item">
+              <div class="img-margin big-shadowed">
+                <figure class="image hpic is-3by2">
+                    <img src="/images/prints/print-10.jpg" />
                 </figure>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
-            </div>
-            <div class="print-pics-item">
-                <figure class="image is-3by2">
-                    <img src="/images/prints/print-6.jpg" class="big-shadowed" />
-                </figure>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
-            </div>
-            <div class="print-pics-item vpic">
-                <figure class="image is-2by3">
-                    <img src="/images/prints/print-7.jpg" class="big-shadowed" >
-                </figure>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
-            </div>
-            <div class="print-pics-item">
-                <figure class="image is-3by2">
-                    <img src="/images/prints/print-9.jpg" class="big-shadowed" />
-                </figure>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
-            </div>
-            <div class="print-pics-item">
-                <figure class="image is-3by2">
-                    <img src="/images/prints/print-13.jpg" class="big-shadowed" />
-                </figure>
+              </div>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
             </div>
         </div>
@@ -143,11 +171,25 @@ h2.rubric span {
   max-width: 900px;
     
 }
-.print-pics-item img {
-  border:22px solid white;
+/* .print-pics-item img {
+  border-style: solid;
+  border-width: 14px 21px ;
+  border-color:white;
+} */
+.img-margin {
+  padding:21px;
+  background-color:white;
 }
 .vpic {
   max-width:550px;
+}
+.prints-intro .txt-exerg {
+  font-family: "PalanquinDark", Serif;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.intro-border-btm p {
+  margin-bottom:.5em;
 }
 @media only screen and (max-width: 768px) {
   .vpic {
