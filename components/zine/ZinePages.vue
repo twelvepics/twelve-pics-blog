@@ -23,7 +23,7 @@
       ref="backpage_ref"
       style="display: none"
     >
-      <div class="cover-last">
+      <div class="cover-last hide-on-small-screen">
         {{ zine.backpage_text }}
       </div>
     </div>
@@ -94,7 +94,7 @@
           ></font-awesome-icon>
         </span>
       </div>
-      <div class="zine-dots">
+      <div class="zine-dots hide-on-small-screen">
         <span
           v-for="(item, index) in parsed"
           :key="index"
@@ -559,5 +559,14 @@ export default {
 }
 .pages-progress-btm.hidden {
   visibility: hidden;
+}
+@media only screen and (max-width: 768px) {
+  .hide-on-small-screen {
+    visibility: hidden;
+  }
+  .pages-progress-btm {
+    width: 60px;
+    height: 8px;
+  }
 }
 </style>

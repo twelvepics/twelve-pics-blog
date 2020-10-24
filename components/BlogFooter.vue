@@ -3,10 +3,15 @@
     <p>
       Contact:
       <a href="mailto:info@twelvepics.com"
-        >info@twelvepics.com</a> - Website built with
-        <a href="https://nuxtjs.org/" target="_blank">NuxtJS</a>, <a href="https://nodejs.org/">Node</a> and
-        <a href="https://www.arangodb.com/">ArangoDB</a> - Support independent publishing. You are not the product!
-      </a>
+        >info@twelvepics.com</a> 
+      - Website 
+      <a href="https://amasiero.dev">&#169;Alain Masiero</a>   
+      built with
+      <a href="https://nuxtjs.org/" target="_blank">NuxtJS</a>, 
+      <a href="https://nodejs.org/">Node</a> 
+      and
+      <a href="https://www.arangodb.com/">ArangoDB</a>
+       - Support independent publishing. You are not the product!
     </p>
   </footer>
 </template>

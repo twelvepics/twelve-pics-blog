@@ -140,7 +140,8 @@ export default {
           "faStepForward",
           "faStepBackward",
           "faFastBackward",
-          "faFileDownload"
+          "faFileDownload",
+          "faShoppingCart"
         ]
       },
       {
@@ -161,11 +162,11 @@ export default {
           customProperties: false
         }
       }
-    },
-    // UNCOMMENT FOR PROD
-    babel: {
-      plugins: ["babel-plugin-transform-remove-console"]
     }
+    // UNCOMMENT FOR PROD
+    // babel: {
+    //   plugins: ["babel-plugin-transform-remove-console"]
+    // }
 
     // extend(config, ctx) {
     //   // Includes the Compiler version of Vue.
