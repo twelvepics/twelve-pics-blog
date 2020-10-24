@@ -11,7 +11,7 @@
                     <span class="txt-exerg">A selection of my photographs is available as limited edition prints.</span> They are printed on archival satin high-quality paper,
                     hand signed, dated, and numbered on the reverse unless requested otherwise.
                     All prints are shipped with an artist bill of sale and a certificate of authenticity,
-                    and you can choose the size, two sizes are available, see the captions for details. Price includes shipping.
+                    and you can choose the size, two sizes are available, 8.5 x 11" and 13×19", see the captions for additional details. Price includes shipping.
                   </p>
                   <p>
                     I am interested in <a href="https://www.alainmasiero.com/city-of-hopes" target="_blank">social/documentary</a> photography, long term projects, and this is how I finance my works.
@@ -27,7 +27,7 @@
                     <img src="/images/prints/print-1.jpg" />
                 </figure>
               </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"Watching you" <span class="greyish">- Paris 2018 - Edition of 12 - 250 Euros</span></p>
             </div>
             <div class="print-pics-item">
               <div class="img-margin big-shadowed">
@@ -35,7 +35,7 @@
                     <img src="/images/prints/print-2.jpg" />
                 </figure>
               </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"The landing" <span class="greyish">- Paris 2016 - Edition of 12 - 250 Euros</span></p>
             </div>
              <div class="print-pics-item vpic">
                <div class="img-margin big-shadowed">
@@ -43,7 +43,7 @@
                     <img src="/images/prints/print-3.jpg">
                 </figure>
                </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"Over the city" <span class="greyish">- Paris 2017 - Edition of 12 - 250 Euros</span></p>
             </div>
             <div class="print-pics-item">
               <div class="img-margin big-shadowed">
@@ -51,7 +51,7 @@
                     <img src="/images/prints/print-4.jpg" />
                 </figure>
               </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"La Seine" <span class="greyish">- Paris 2018 - Edition of 12 - 250 Euros</span></p>
             </div>
              <div class="print-pics-item vpic">
                <div class="img-margin big-shadowed">
@@ -59,7 +59,7 @@
                     <img src="/images/prints/print-5.jpg">
                 </figure>
                </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"Nuggets diva" <span class="greyish">- Paris 2019 - Edition of 12 - 250 Euros</span></p>
             </div>
             <div class="print-pics-item">
               <div class="img-margin big-shadowed">
@@ -67,7 +67,7 @@
                     <img src="/images/prints/print-6.jpg" />
                 </figure>
               </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"Commuting? Commuting!" <span class="greyish">- Manila 2020 - Edition of 12 - 250 Euros</span></p>
             </div>
              <div class="print-pics-item vpic">
                <div class="img-margin big-shadowed">
@@ -75,7 +75,7 @@
                     <img src="/images/prints/print-7.jpg">
                 </figure>
                </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"We are one" <span class="greyish">- Manila 2020 - Edition of 12 - 250 Euros</span></p>
             </div>
              <div class="print-pics-item">
               <div class="img-margin big-shadowed">
@@ -83,7 +83,7 @@
                     <img src="/images/prints/print-8.jpg" />
                 </figure>
               </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"Man and the sea" <span class="greyish">- Manila 2021 - Edition of 12 - 250 Euros</span></p>
             </div>
             <div class="print-pics-item">
               <div class="img-margin big-shadowed">
@@ -91,7 +91,7 @@
                     <img src="/images/prints/print-9.jpg" />
                 </figure>
               </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"Stairway" <span class="greyish">- Manila 2021 - Edition of 12 - 250 Euros</span></p>
             </div>
              <div class="print-pics-item">
               <div class="img-margin big-shadowed">
@@ -99,7 +99,7 @@
                     <img src="/images/prints/print-10.jpg" />
                 </figure>
               </div>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, est.</p>
+                <p class="caption">"Carrying the wahing machine" <span class="greyish">- Manila 2021 - Edition of 12 - 250 Euros</span></p>
             </div>
         </div>
     </section>
@@ -191,6 +191,9 @@ h2.rubric span {
 .intro-border-btm p {
   margin-bottom:.5em;
 }
+.greyish {
+  color:#888;
+} 
 @media only screen and (max-width: 768px) {
   .vpic {
     max-width:70%;
